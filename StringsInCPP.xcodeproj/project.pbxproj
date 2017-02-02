@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21FFC8981E438B9400E693F6 /* stringController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21FFC8961E438B9400E693F6 /* stringController.cpp */; };
+		21FFC8981E438B9400E693F6 /* StringController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21FFC8961E438B9400E693F6 /* StringController.cpp */; };
 		21FFC89A1E438BB300E693F6 /* StringRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21FFC8991E438BB300E693F6 /* StringRunner.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		21FFC88B1E438B5700E693F6 /* StringsInCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringsInCPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		21FFC8961E438B9400E693F6 /* stringController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringController.cpp; path = StringsInCPP/Controller/stringController.cpp; sourceTree = "<group>"; };
-		21FFC8971E438B9400E693F6 /* stringController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = stringController.hpp; path = StringsInCPP/Controller/stringController.hpp; sourceTree = "<group>"; };
+		21FFC8961E438B9400E693F6 /* StringController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringController.cpp; path = StringsInCPP/Controller/StringController.cpp; sourceTree = "<group>"; };
+		21FFC8971E438B9400E693F6 /* StringController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = StringController.hpp; path = StringsInCPP/Controller/StringController.hpp; sourceTree = "<group>"; };
 		21FFC8991E438BB300E693F6 /* StringRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringRunner.cpp; path = StringsInCPP/Controller/StringRunner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,8 +68,8 @@
 		21FFC8951E438B6A00E693F6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				21FFC8961E438B9400E693F6 /* stringController.cpp */,
-				21FFC8971E438B9400E693F6 /* stringController.hpp */,
+				21FFC8961E438B9400E693F6 /* StringController.cpp */,
+				21FFC8971E438B9400E693F6 /* StringController.hpp */,
 				21FFC8991E438BB300E693F6 /* StringRunner.cpp */,
 			);
 			name = Controller;
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FFC89A1E438BB300E693F6 /* StringRunner.cpp in Sources */,
-				21FFC8981E438B9400E693F6 /* stringController.cpp in Sources */,
+				21FFC8981E438B9400E693F6 /* StringController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

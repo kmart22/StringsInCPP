@@ -9,12 +9,17 @@
 #ifndef stringController_hpp
 #define stringController_hpp
 
+#include <string>
+using namespace std;
+
 class StringController
 {
 private:
-    
-    
+    string string1;
+    string string2;
+    void numberMethods();
 public:
+    StringController;
     void start();
 };
 
